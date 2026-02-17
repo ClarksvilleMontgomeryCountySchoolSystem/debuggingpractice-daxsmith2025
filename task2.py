@@ -30,7 +30,7 @@ def main():
 
 
 # Comment out the line below after fixing input bugs
-main()
+#main()
 
 
 # --- Receipt Header ---
@@ -72,7 +72,7 @@ print(f"Deli Meat: {pounds} lbs x ${deli_price} = ${deli_total}")
 # --- Lottery Tickets ---
 # Price: $2 each (int price, int quantity)
 lottery_price = 2
-lottery_quantity = float(lottery_quantity_str)
+lottery_quantity = int(lottery_quantity_str)
 lottery_total = int(lottery_price * lottery_quantity)
 print(f"Lottery: {lottery_quantity} x ${lottery_price} = ${lottery_total}")
 
